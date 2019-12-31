@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+Admin LTE customization
+*/
+
+// bootstrap functions customization
+@import "bootstrap-functions";
+// bootstrap variables customizacion
+@import "bootstrap-variables";
+
+//build boostrap librery
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//build Admin LTE styles
+@import "../node_modules/admin-lte/build/scss/AdminLTE-raw";
+
