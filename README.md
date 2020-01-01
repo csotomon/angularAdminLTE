@@ -1,27 +1,65 @@
-# AngularAdminLTE
+Introduction
+============
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This is the **Angular** version of **AdminLTE** -- what is a fully responsive administration template. Based on **[Bootstrap 4](https://getbootstrap.com)** framework.
+Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
 
-## Development server
+**Preview on [AdminLTE.io](https://adminlte.io/themes/v3)**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Installation
+------------
 
-## Code scaffolding
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine
+- Install Angular Cli.
+```bash
+npm install -g @angular/cli
+```
+- Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/angularAdminLTE.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Install the packages
+```bash
+cd angularAdminLTE
+npm install
+```
 
-## Build
+Running the application
+------------
+- On the folder project
+```
+ng serve -o
+```
+- For starter page Navigate to [http://localhost:4200/](http://localhost:4200/)
+- For admin page Navigate to [http://localhost:4200/admin](http://localhost:4200/admin)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Browser Support
+---------------
+- IE 10+
+- Firefox (latest)
+- Chrome (latest)
+- Safari (latest)
+- Opera (latest)
 
-## Running unit tests
+Contribution
+------------
+Contribution are always **welcome and recommended**! Here is how:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/angularAdminLTE.git```
+- Make your changes
+- Create a pull request
 
-## Running end-to-end tests
+#### Contribution Requirements:
+- Contributions are only accepted through Github pull requests.
+- Finally, contributed code must work in all supported browsers (see above for browser support).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+License
+-------
+angularAdminLTE is an open source project by that is licensed under [MIT](http://opensource.org/licenses/MIT).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ Credits
+-------------
+[AdminLTE.IO](https://adminlte.io/)
