@@ -21,6 +21,7 @@
     "@angular/router": "~8.2.14",
     "@fortawesome/fontawesome-free": "^5.12.0",
     "admin-lte": "^3.0.1",
+    "ionicons": "^2.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
