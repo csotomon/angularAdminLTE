@@ -49,6 +49,7 @@
               "node_modules/chart.js/dist/Chart.min.js",
               "node_modules/sparklines/source/sparkline.js",
               "node_modules/jqvmap-novulnerability/dist/jquery.vmap.min.js",
+              "node_modules/jqvmap-novulnerability/dist/maps/jquery.vmap.usa.js",
               "node_modules/jquery-knob-chif/dist/jquery.knob.min.js",
               "node_modules/moment/min/moment.min.js",
               "node_modules/daterangepicker/daterangepicker.js",
