@@ -8,9 +8,14 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display navigation title', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angularAdminLTE app is running!');
+    expect(page.getNavTitleText()).toEqual('AdminLTE 3');
+  });
+
+  it('should display content title', () => {
+    page.navigateTo();
+    expect(page.getContentTitleText()).toEqual('Starter Page');
   });
 
   afterEach(async () => {

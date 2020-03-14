@@ -22,4 +22,10 @@ describe('ContentComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render title', () => {
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('div div div div h1').textContent).toContain('Starter Page');
+  });
 });

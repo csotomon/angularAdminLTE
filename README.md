@@ -37,11 +37,11 @@ ng serve -o
 
 Browser Support
 ---------------
-- IE 10+
 - Firefox (latest)
 - Chrome (latest)
 - Safari (latest)
 - Opera (latest)
+- No IE support
 
 Contribution
 ------------

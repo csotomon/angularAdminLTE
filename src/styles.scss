@@ -5,9 +5,9 @@ Admin LTE customization
 */
 
 // bootstrap functions customization
-@import "bootstrap-functions";
+@import "./styles/bootstrap-functions";
 // bootstrap variables customizacion
-@import "bootstrap-variables";
+@import "./styles/bootstrap-variables";
 
 //build boostrap librery
 @import "../node_modules/bootstrap/scss/bootstrap";

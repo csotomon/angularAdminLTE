@@ -5,7 +5,12 @@ export class AppPage {
     return browser.get(browser.baseUrl) as Promise<any>;
   }
 
-  getTitleText() {
-    return element(by.css('app-root .content span')).getText() as Promise<string>;
+  getNavTitleText() {
+    return element(by.css('app-root app-starter div app-starter-main-side-bar aside a span')).getText() as Promise<string>;
   }
+
+  getContentTitleText() {
+    return element(by.css('app-content div div div div h1')).getText() as Promise<string>;
+  }
+
 }
