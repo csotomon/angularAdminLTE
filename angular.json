@@ -28,11 +28,12 @@
               "src/assets"
             ],
             "stylePreprocessorOptions": {
-              "includePaths": ["src/styles"]
+              "includePaths": [
+                "src/styles"
+              ]
             },
             "styles": [
-              "src/styles.scss",
-              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+              "src/styles.scss"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
@@ -131,6 +132,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angularAdminLTE"
 }
