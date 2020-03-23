@@ -5,14 +5,24 @@ Admin LTE customization
 */
 
 // bootstrap functions customization
-@import "bootstrap-functions";
-// bootstrap variables customizacion
-@import "bootstrap-variables";
+@import "./styles/bootstrap-functions";
 
-//build boostrap librery
+// bootstrap variables customization
+@import "./styles/bootstrap-variables";
+
+//build boostrap library
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-//build Admin LTE styles
-@import "../node_modules/admin-lte/build/scss/AdminLTE-raw";
+@import "./styles/variables";
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+// build Font Awesome Icons
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+
+// build AdminLTE theme styles
+@import "../node_modules/admin-lte/build/scss/AdminLTE";
+
+// Google Font: Source Sans Pro
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
