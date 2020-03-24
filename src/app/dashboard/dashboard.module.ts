@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ChartsModule } from 'ng2-charts';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -14,7 +15,8 @@ import { ControlSideBarComponent } from './dashboard/control-side-bar/control-si
   declarations: [DashboardComponent, Version1Component, NavBarComponent, MainSideBarComponent, FooterComponent, ControlSideBarComponent],
   imports: [
     CommonModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    ChartsModule
   ]
 })
 export class DashboardModule { }

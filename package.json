@@ -20,9 +20,12 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
     "@fortawesome/fontawesome-free": "^5.12.0",
+    "@types/overlayscrollbars": "^1.9.0",
     "admin-lte": "^3.0.1",
+    "chart.js": "^2.9.3",
     "ionicons": "^2.0.1",
     "jquery-ui-dist": "^1.12.1",
+    "ng2-charts": "^2.3.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
