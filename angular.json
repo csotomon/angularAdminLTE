@@ -56,7 +56,11 @@
               "node_modules/daterangepicker/daterangepicker.js",
               "node_modules/tempusdominus-bootstrap-4/build/js/tempusdominus-bootstrap-4.min.js",
               "node_modules/summernote/dist/summernote-bs4.min.js",
-              "node_modules/overlayscrollbars/js/jquery.overlayScrollbars.min.js"
+              "node_modules/overlayscrollbars/js/jquery.overlayScrollbars.min.js",
+              "node_modules/raphael/raphael.min.js",
+              "node_modules/jquery-mousewheel/jquery.mousewheel.js",
+              "node_modules/jquery-mapael/js/jquery.mapael.min.js",
+              "node_modules/jquery-mapael/js/maps/usa_states.min.js"
             ]
           },
           "configurations": {
