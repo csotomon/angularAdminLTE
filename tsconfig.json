@@ -12,8 +12,10 @@
     "importHelpers": true,
     "target": "es2015",
     "typeRoots": [
-      "node_modules/@types"
+      "node_modules/@types",
+      "types"
     ],
+    "allowSyntheticDefaultImports": true,
     "lib": [
       "es2018",
       "dom"
