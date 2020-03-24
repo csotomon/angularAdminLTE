@@ -105,13 +105,13 @@ export class Version1Component implements OnInit {
     });
 
     // Sparkline charts
-    let sparkline1 = Sparkline.init(jQuery("#sparkline-1")[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
-    //let sparkline2 = Sparkline(jQuery("#sparkline-2")[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
-    //let sparkline3 = Sparkline(jQuery("#sparkline-3")[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
+    const sparkline1 = new Sparkline(jQuery('#sparkline-1')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
+    const sparkline2 = new Sparkline(jQuery('#sparkline-2')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
+    const sparkline3 = new Sparkline(jQuery('#sparkline-3')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
 
     sparkline1.draw([1000, 1200, 920, 927, 931, 1027, 819, 930, 1021]);
-    //sparkline2.draw([515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921]);
-    //sparkline3.draw([15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21]);
+    sparkline2.draw([515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921]);
+    sparkline3.draw([15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21]);
 
 
     // The Calender
