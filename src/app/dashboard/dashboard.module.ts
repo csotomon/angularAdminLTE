@@ -9,10 +9,12 @@ import { NavBarComponent } from './dashboard/nav-bar/nav-bar.component';
 import { MainSideBarComponent } from './dashboard/main-side-bar/main-side-bar.component';
 import { FooterComponent } from './dashboard/footer/footer.component';
 import { ControlSideBarComponent } from './dashboard/control-side-bar/control-side-bar.component';
+import { Version2Component } from './dashboard/version2/version2.component';
+import { Version3Component } from './dashboard/version3/version3.component';
 
 
 @NgModule({
-  declarations: [DashboardComponent, Version1Component, NavBarComponent, MainSideBarComponent, FooterComponent, ControlSideBarComponent],
+  declarations: [DashboardComponent, Version1Component, NavBarComponent, MainSideBarComponent, FooterComponent, ControlSideBarComponent, Version2Component, Version3Component],
   imports: [
     CommonModule,
     DashboardRoutingModule,

@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { } from 'jquery';
 import { } from 'summernote';
 import { } from 'daterangepicker';
-// import { } from  'jquery-knob';
 import * as moment from 'moment';
 import * as Sparkline from 'sparklines';
 import * as OverlayScrollbars from 'overlayscrollbars';
